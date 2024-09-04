@@ -1,0 +1,179 @@
+.log-in-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .log-in-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+  }
+  
+  .log-in-page .overlap-group {
+    position: relative;
+    width: 1225px;
+    height: 783px;
+    top: 25px;
+    left: 27px;
+    background-image: url(https://c.animaapp.com/u9jFIJuy/img/background-image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .log-in-page .rectangle {
+    position: absolute;
+    width: 482px;
+    height: 497px;
+    top: 143px;
+    left: 657px;
+    background-color: #b0b0b0;
+    border-radius: 38px;
+    filter: blur(14.6px);
+  }
+  
+  .log-in-page .div {
+    position: absolute;
+    width: 460px;
+    height: 480px;
+    top: 151px;
+    left: 668px;
+    background-color: #fdfdfd;
+    border-radius: 35px;
+    box-shadow: 0px 4px 4px #00000040, 0px 4px 4px #00000040;
+  }
+  
+  .log-in-page .text-wrapper {
+    position: absolute;
+    width: 210px;
+    top: 264px;
+    left: 793px;
+    font-family: "Kadwa", Helvetica;
+    font-weight: 400;
+    color: #7901e6;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in-page .logo-sanofi {
+    position: absolute;
+    width: 253px;
+    height: 63px;
+    top: 191px;
+    left: 771px;
+    object-fit: cover;
+  }
+  
+  .log-in-page .rectangle-2 {
+    position: absolute;
+    width: 286px;
+    height: 41px;
+    top: 380px;
+    left: 755px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .log-in-page .rectangle-3 {
+    position: absolute;
+    width: 286px;
+    height: 40px;
+    top: 435px;
+    left: 755px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .log-in-page .text-wrapper-2 {
+    position: absolute;
+    width: 84px;
+    top: 393px;
+    left: 760px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in-page .text-wrapper-3 {
+    position: absolute;
+    width: 84px;
+    top: 446px;
+    left: 760px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in-page .text-wrapper-4 {
+    position: absolute;
+    top: 350px;
+    left: 755px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .log-in-page .rectangle-4 {
+    position: absolute;
+    width: 252px;
+    height: 54px;
+    top: 489px;
+    left: 773px;
+    background-color: #727272;
+    border-radius: 15px;
+    filter: blur(6.2px);
+  }
+  
+  .log-in-page .rectangle-5 {
+    position: absolute;
+    width: 251px;
+    height: 54px;
+    top: 489px;
+    left: 773px;
+    background-color: #a04deb;
+    border-radius: 15px;
+  }
+  
+  .log-in-page .text-wrapper-5 {
+    position: absolute;
+    width: 62px;
+    top: 503px;
+    left: 867px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .log-in-page .p {
+    position: absolute;
+    top: 556px;
+    left: 800px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
