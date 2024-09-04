@@ -1,0 +1,326 @@
+.sign-in-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-in-page .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1280px;
+    height: 832px;
+  }
+  
+  .sign-in-page .overlap-group {
+    position: relative;
+    width: 1225px;
+    height: 783px;
+    top: 25px;
+    left: 27px;
+    background-image: url(https://c.animaapp.com/u9jFIJuy/img/background-image.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .sign-in-page .rectangle {
+    position: absolute;
+    width: 689px;
+    height: 694px;
+    top: 38px;
+    left: 268px;
+    background-color: #b0b0b0;
+    border-radius: 38px;
+    filter: blur(14.6px);
+  }
+  
+  .sign-in-page .div {
+    position: absolute;
+    width: 657px;
+    height: 669px;
+    top: 50px;
+    left: 284px;
+    background-color: #fdfdfd;
+    border-radius: 35px;
+  }
+  
+  .sign-in-page .text-wrapper {
+    position: absolute;
+    width: 212px;
+    top: 148px;
+    left: 507px;
+    font-family: "Kadwa", Helvetica;
+    font-weight: 400;
+    color: #7901e6;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in-page .logo-sanofi {
+    position: absolute;
+    width: 256px;
+    height: 34px;
+    top: 245px;
+    left: 484px;
+    object-fit: cover;
+  }
+  
+  .sign-in-page .rectangle-2 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 245px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in-page .rectangle-3 {
+    position: absolute;
+    width: 290px;
+    height: 33px;
+    top: 291px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in-page .text-wrapper-2 {
+    position: absolute;
+    width: 84px;
+    top: 256px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .sign-in-page .text-wrapper-3 {
+    position: absolute;
+    width: 84px;
+    top: 300px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .sign-in-page .text-wrapper-4 {
+    position: absolute;
+    width: 85px;
+    top: 346px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .sign-in-page .rectangle-4 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 336px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in-page .rectangle-5 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 381px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in-page .text-wrapper-5 {
+    position: absolute;
+    width: 136px;
+    top: 390px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .sign-in-page .rectangle-6 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 423px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+
+  .log-in-page .rectangle-7 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 469px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+
+    
+  .sign-in-page .text-wrapper-6 {
+    position: absolute;
+    width: 85px;
+    top: 434px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+    
+  .sign-in-page .text-wrapper-7 {
+    position: absolute;
+    width: 124px;
+    top: 478px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+ 
+  .log-in-page .rectangle-8 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 514px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+
+  .log-in-page .rectangle-9 {
+    position: absolute;
+    width: 290px;
+    height: 34px;
+    top: 559px;
+    left: 468px;
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    border: 0.6px solid;
+    border-color: #000000;
+  }
+
+  .sign-in-page .text-wrapper-8 {
+    position: absolute;
+    width: 85px;
+    top: 524px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .sign-in-page .text-wrapper-9 {
+    position: absolute;
+    width: 136px;
+    top: 478px;
+    left: 473px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #737373;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .sign-in-page .text-wrapper-10 {
+    position: absolute;
+    width: 92px;
+    top: 217px;
+    left: 566px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .sign-in-page .rectangle-10 {
+    position: absolute;
+    width: 255px;
+    height: 45px;
+    top: 635px;
+    left: 481px;
+    background-color: #fdfdfd;
+    border-radius: 15px;
+    filter: blur(6.2px);
+  }
+
+  .sign-in-page .rectangle-11 {
+    position: absolute;
+    width: 254px;
+    height: 45px;
+    top: 635px;
+    left: 481px;
+    background-color: #a04deb;
+    border-radius: 15px;
+  }
+
+  .sign-in-page .text-wrapper-11 {
+    position: absolute;
+    width: 100px;
+    top: 647px;
+    left: 567px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
