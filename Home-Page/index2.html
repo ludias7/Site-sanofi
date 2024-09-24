@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sanofi - Soluções que Transformam Vidas</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
@@ -12,13 +12,12 @@
     <!-- Cabeçalho -->
     <header>
         <nav class="nav-bar">
-            <!-- Menu e ícone de menu hamburger à esquerda -->
             <div class="nav-left">
-                <div class="menu-hamburger">
+                <button class="menu-hamburger">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 40 40" fill="none">
                         <path d="M0 40V33.3333H40V40H0ZM0 23.3333V16.6667H40V23.3333H0ZM0 6.66667V0H40V6.66667H0Z" fill="#7901E6"/>
                     </svg>
-                </div>
+                </button>
                 <ul class="menu">
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#relatorio">RELATÓRIO</a></li>
@@ -37,7 +36,7 @@
                     <input type="text" placeholder="Pesquisar...">
                     <button class="search-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
-                          <path d="M27.6667 29.2105L17.1667 18.9868C16.3333 19.636 15.375 20.1499 14.2917 20.5285C13.2083 20.9072 12.0556 21.0965 10.8333 21.0965C7.80556 21.0965 5.24306 20.0755 3.14583 18.0334C1.04861 15.9914 0 13.4963 0 10.5482C0 7.60015 1.04861 5.10508 3.14583 3.06305C5.24306 1.02102 7.80556 0 10.8333 0C13.8611 0 16.4236 1.02102 18.5208 3.06305C20.6181 5.10508 21.6667 7.60015 21.6667 10.5482C21.6667 11.7383 21.4722 12.8607 21.0833 13.9156C20.6944 14.9704 20.1667 15.9035 19.5 16.7149L30 26.9386L27.6667 29.2105ZM10.8333 17.8509C12.9167 17.8509 14.6875 17.1409 16.1458 15.7209C17.6042 14.301 18.3333 12.5768 18.3333 10.5482C18.3333 8.51974 17.6042 6.7955 16.1458 5.37555C14.6875 3.95559 12.9167 3.24561 10.8333 3.24561C8.75 3.24561 6.97917 3.95559 5.52083 5.37555C4.0625 6.7955 3.33333 8.51974 3.33333 10.5482C3.33333 12.5768 4.0625 14.301 5.52083 15.7209C6.97917 17.1409 8.75 17.8509 10.8333 17.8509Z" fill="#7901E6"/>
+                          <path d="M27.6667 29.2105L17.1667 18.9868C16.3333 19.636 15.375 20.1499 14.2917 20.5285C13.2083 20.9072 12.0556 21.0965 10.8333 21.0965C7.80556 21.0965 5.24306 20.0755 3.14583 18.0334C1.04861 15.9914 0 13.4963 0 10.5482C0 7.60015 1.04861 5.10508 3.14583 3.06305C5.24306 1.02102 7.80556 0 10.8333 0C13.8611 0 16.4236 1.02102 18.5208 3.06305C20.6181 5.10508 21.6667 7.60015 21.6667 10.5482C21.6667 11.7383 21.4722 12.8607 21.0833 13.9156C20.6944 14.9704 20.1667 15.9035 19.5 16.7149L30 26.9386L27.6667 29.2105ZM10.8333 17.8509C12.9167 17.8509 14.6875 17.1409 16.1458 15.7209C17.6042 14.301 18.3333 12.5768 18.3333 10.5482C18.3333 8.51974 17.6042 6.7955 16.1458 5.37555C14.6875 3.95559 12.9167 3.24561 10.8333 3.24561Z" fill="#7901E6"/>
                         </svg>
                     </button>
                 </div>
@@ -52,17 +51,20 @@
 
     <!-- Seção Hero -->
     <section class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Soluções que Transformam Vidas</h1>
+            <h1>Soluções que <br> Transformam Vidas</h1>
             <p>Na Sanofi, acreditamos que soluções inovadoras têm o poder de transformar o mundo. Nosso compromisso com a saúde e o bem-estar das pessoas impulsiona nossa busca constante por avanços que façam a diferença na vida de milhões.</p>
-            <button class="cta-button">Saiba Mais</button>
+            <div class="cta-wrapper">
+                <button class="cta-button">Saiba Mais</button>
+            </div>
         </div>
     </section>
 
     <!-- Seção Carreiras -->
     <section class="careers">
-        <h2>Carreiras</h2>
-        <p>Explore oportunidades e faça parte da nossa equipe para transformar o futuro da saúde.</p>
+        <h2>Gestão de Estoque</h2>
+        <p>Acompanhe de forma rápida e eficiente o controle de estoque, movimentações e gastos, garantindo a disponibilidade dos itens para os colaboradores.</p>
         <div class="careers-image">
             <img src="https://via.placeholder.com/400" alt="Imagem de Carreiras">
         </div>

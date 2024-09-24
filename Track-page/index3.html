@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status do Pedido - Sanofi</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho elegante -->
+    <header>
+        <div class="nav-bar">
+            <div class="nav-left">
+                <button class="menu-icon"><i class="fas fa-bars"></i></button>
+                <nav class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Relatório</a>
+                    <a href="#">Track</a>
+                </nav>
+            </div>
+            <div class="logo">
+                <img src="https://c.animaapp.com/u9jFIJuy/img/logo-sanofi--2022--removebg-preview-1@2x.png" alt="Sanofi Logo">
+            </div>
+            <div class="nav-right">
+                <div class="search-container">
+                    <input type="text" placeholder="Pesquisar..." class="search-box">
+                    <button class="search-icon"><i class="fas fa-search"></i></button>
+                </div>
+                <!-- Ícone de perfil fora do campo de busca -->
+                <button class="profile-icon"><i class="fas fa-user"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção principal com status do pedido -->
+    <main>
+        <section class="order-status">
+            <div class="status-card received">
+                <i class="fas fa-truck-loading"></i>
+                <h2>Seu pedido foi recebido!</h2>
+                <p>Estamos preparando seu pedido.</p>
+                <p><strong>Número do Pedido:</strong> 264903</p>
+                <p>15 x Capa para Ipad<br>40 x Cabo Usb C</p>
+                <a href="#" class="contact-link">Problemas com o pedido? Entre em contato conosco!</a>
+            </div>
+
+            <div class="status-card in-transit">
+                <i class="fas fa-box"></i>
+                <h2>Seu pedido está a caminho!</h2>
+                <p>Conferido e será entregue em breve.</p>
+                <p><strong>Número do Pedido:</strong> 264903</p>
+                <p>15 x Capa para Ipad<br>40 x Cabo Usb C</p>
+                <p class="eta">Entrega prevista em <strong>7 dias</strong></p>
+                <a href="#" class="contact-link">Problemas com o pedido? Entre em contato conosco!</a>
+            </div>
+
+            <div class="status-card delivered">
+                <i class="fas fa-truck"></i>
+                <h2>Seu pedido foi entregue!</h2>
+                <p>Obrigado por comprar conosco!</p>
+                <p><strong>Número do Pedido:</strong> 264903</p>
+                <p>15 x Capa para Ipad<br>40 x Cabo Usb C</p>
+                <a href="#" class="contact-link">Problemas com o pedido? Entre em contato conosco!</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Sanofi. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

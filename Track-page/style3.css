@@ -1,0 +1,214 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 15px 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Menu hamburger - alinhado à esquerda */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre o ícone de menu e os links */
+}
+
+.menu-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6B47DC;
+    font-size: 24px;
+}
+
+.menu-icon i {
+    font-size: 28px;  /* Três tracinhos maiores */
+}
+
+/* Menu ao lado dos três tracinhos */
+.menu {
+    display: flex;
+    gap: 25px; /* Espaçamento entre os links */
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #6B47DC;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #9f80ff;
+}
+
+/* Centraliza o logo */
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+/* Barra de pesquisa à direita */
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.search-container:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.search-box {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 180px; /* Ajuste de largura do campo de busca */
+}
+
+.search-icon {
+    background: none;
+    border: none;
+    color: #6B47DC;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Ícone de perfil fora da barra de pesquisa */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaço entre a barra de busca e o ícone de perfil */
+}
+
+.profile-icon {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #6B47DC;
+    cursor: pointer;
+}
+
+/* Seção principal */
+main {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-status {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Cartões de status */
+.status-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.status-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.status-card i {
+    font-size: 48px;
+    color: #6B47DC;
+    margin-bottom: 15px;
+}
+
+.status-card h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #333;
+}
+
+.status-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.status-card .eta {
+    font-size: 18px;
+    font-weight: 500;
+    color: #6B47DC;
+}
+
+.contact-link {
+    font-weight: 500;
+    color: #9f80ff;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Cores de fundo específicas */
+.received {
+    background-color: #e6eaff;
+}
+
+.in-transit {
+    background-color: #d9cfff;
+}
+
+.delivered {
+    background-color: #d3d3ff;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
