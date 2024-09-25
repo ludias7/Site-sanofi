@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     margin: 0;
     padding: 0;
@@ -10,20 +10,20 @@ body {
     height: 100vh;
 }
 
-/* Ícone de Menu */
+/* icone menu */
 .menu-icon {
     font-size: 30px;
     color: white;
     margin: 20px;
     cursor: pointer;
-    z-index: 1000; /* Para garantir que o ícone esteja sempre no topo */
+    z-index: 1000; /* icone no topo */
 }
 
-/* Barra Lateral */
+/* barra lateral */
 .sidebar {
     position: fixed;
     top: 0;
-    left: -300px; /* Inicialmente escondido fora da tela */
+    left: -300px; /* inicialmente escondido fora da tela */
     width: 250px;
     height: 100vh;
     background-color: #f7f8fa;
@@ -33,13 +33,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    transition: left 0.3s ease; /* Transição suave para a barra lateral */
+    transition: left 0.3s ease; /* transição para a barra lateral */
     overflow-y: auto;
 }
 
-/* Quando a classe 'active' for adicionada, a barra aparece */
+
 .sidebar.active {
-    left: 0; /* Barra desliza para dentro da tela */
+    left: 0; /* barra pra voltar pra tela*/
 }
 
 .sidebar-item {
@@ -55,7 +55,6 @@ body {
     margin-bottom: 0;
 }
 
-/* Scrollbar customization */
 .sidebar {
     scrollbar-width: thin;
     scrollbar-color: #b0b0b0 #f7f8fa;
