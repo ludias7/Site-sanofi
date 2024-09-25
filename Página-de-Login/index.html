@@ -1,32 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sanofi</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
     <div class="log-in-page">
-      <div class="overlap-group-wrapper">
-        <div class="overlap-group">
-          <div class="rectangle"></div>
-          <div class="div"></div>
-          <div class="text-wrapper">Micro Manegement system</div>
-          <img
-            class="logo-sanofi"
-            src="https://c.animaapp.com/u9jFIJuy/img/logo-sanofi--2022--removebg-preview-1@2x.png"
-          />
-          <div class="rectangle-2"></div>
-          <div class="rectangle-3"></div>
-          <div class="text-wrapper-2">Usuário</div>
-          <div class="text-wrapper-3">Senha</div>
-          <div class="text-wrapper-4">Login</div>
-          <div class="rectangle-4"></div>
-          <div class="rectangle-5"></div>
-          <div class="text-wrapper-5">Entrar</div>
-          <p class="p">Não tem ID Sanofi? Crie ele agora.</p>
+        <div class="login-container">
+            <img class="logo-sanofi" src="https://c.animaapp.com/u9jFIJuy/img/logo-sanofi--2022--removebg-preview-1@2x.png" alt="Sanofi Logo" />
+            <h2 class="login-title">Micro Management System</h2>
+            
+            <form class="login-form">
+                <label for="username" class="form-label">Usuário</label>
+                <input type="text" id="username" class="form-input" placeholder="Digite seu usuário" required />
+
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" id="password" class="form-input" placeholder="Digite sua senha" required />
+
+                <button type="submit" class="login-button">Entrar</button>
+            </form>
+
+            <p class="create-account">Não tem ID Sanofi? <a href="#">Crie ele agora.</a></p>
         </div>
-      </div>
     </div>
-  </body>
+</body>
 </html>
