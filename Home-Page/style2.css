@@ -1,4 +1,4 @@
-/* Estilos globais */
+/* estilos globais */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ h1, h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Cabeçalho */
+/* cabeçalho */
 header {
     background-color: rgba(255, 255, 255, 0.95);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@ header {
     width: 100%;
 }
 
-/* Menu à esquerda */
+/* menu à esquerda */
 .nav-left {
     display: flex;
     align-items: center;
@@ -53,12 +53,12 @@ header {
 .close-hamburger {
     position: absolute;
     top: 20px;
-    left: 220px; /* Ajuste para aparecer na borda */
+    left: 220px; /* ajuste para aparecer na borda */
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
-    z-index: 1001; /* Para ficar sobreposto à barra lateral */
+    z-index: 1001; /* para ficar sobreposto à barra lateral */
 }
 
 .menu {
@@ -98,7 +98,7 @@ header {
     width: 100%;
 }
 
-/* Logo centralizado */
+/* logo centralizado */
 .logo {
     position: absolute;
     left: 50%;
@@ -109,7 +109,7 @@ header {
     width: 120px;
 }
 
-/* Barra de pesquisa e ícone de perfil à direita */
+/* barra de pesquisa e ícone de perfil à direita */
 .nav-right {
     display: flex;
     align-items: center;
@@ -222,7 +222,7 @@ header {
     background-color: #9339E4;
 }
 
-/* Seção Carreiras */
+/* carreiras */
 .careers {
     background-color: #f7f7f7;
     padding: 80px 30px;
@@ -290,7 +290,6 @@ footer {
     background-color: #d0d0d0;
 }
 
-/* Scrollbar customization */
 .sidebar {
     scrollbar-width: thin;
     scrollbar-color: #b0b0b0 #f7f8fa;
