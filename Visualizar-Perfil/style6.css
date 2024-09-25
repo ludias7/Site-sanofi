@@ -1,0 +1,81 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f8fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-view-card {
+    background-color: #fff;
+    width: 400px;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 40px;
+}
+
+.profile-picture {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-color: #7901E6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(121, 1, 230, 0.3);
+}
+
+.profile-picture svg {
+    width: 50px;
+    height: 55px;
+}
+
+h2 {
+    margin: 20px 0 15px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+}
+
+.profile-details {
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.detail-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.detail-item h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
+
+.detail-item p {
+    margin: 5px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* Remove border from the last item */
+.detail-item:last-child {
+    border-bottom: none;
+}
