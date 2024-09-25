@@ -50,6 +50,17 @@ header {
     height: 25px;
 }
 
+.close-hamburger {
+    position: absolute;
+    top: 20px;
+    left: 220px; /* Ajuste para aparecer na borda */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001; /* Para ficar sobreposto à barra lateral */
+}
+
 .menu {
     display: flex;
     list-style-type: none;
@@ -72,7 +83,6 @@ header {
     color: #9339E4;
 }
 
-/* Adicionando um efeito hover bonito */
 .menu a::after {
     content: "";
     position: absolute;
@@ -236,4 +246,65 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+}
+
+/* Barra Lateral */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Inicialmente oculta */
+    width: 250px;
+    height: auto;
+    background-color: #f7f8fa;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.sidebar.active {
+    left: 0; /* Quando ativa, a barra aparece */
+}
+
+.sidebar-item {
+    background-color: #e0e0e0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sidebar-item:hover {
+    background-color: #d0d0d0;
+}
+
+/* Scrollbar customization */
+.sidebar {
+    scrollbar-width: thin;
+    scrollbar-color: #b0b0b0 #f7f8fa;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background: #f7f8fa;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #b0b0b0;
+    border-radius: 10px;
 }

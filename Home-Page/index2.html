@@ -9,11 +9,26 @@
 </head>
 <body>
 
+    <!-- Barra Lateral (oculta por padrão) -->
+    <div class="sidebar">
+        <button class="close-hamburger" onclick="toggleSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 40 40" fill="none">
+                <path d="M0 40V33.3333H40V40H0ZM0 23.3333V16.6667H40V23.3333H0ZM0 6.66667V0H40V6.66667H0Z" fill="#333"/>
+            </svg>
+        </button>
+        <div class="sidebar-item">Home</div>
+        <div class="sidebar-item">Relatório</div>
+        <div class="sidebar-item">Track</div>
+        <div class="sidebar-item">Perfil</div>
+        <div class="sidebar-item">Configurações</div>
+    </div>
+
     <!-- Cabeçalho -->
     <header>
         <nav class="nav-bar">
             <div class="nav-left">
-                <button class="menu-hamburger">
+                <!-- Ícone do Menu Hambúrguer -->
+                <button class="menu-hamburger" onclick="toggleSidebar()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 40 40" fill="none">
                         <path d="M0 40V33.3333H40V40H0ZM0 23.3333V16.6667H40V23.3333H0ZM0 6.66667V0H40V6.66667H0Z" fill="#7901E6"/>
                     </svg>
@@ -74,6 +89,13 @@
     <footer>
         <p>© 2024 Sanofi. Todos os direitos reservados.</p>
     </footer>
+
+    <!-- JavaScript para ativar/desativar a barra lateral -->
+    <script>
+        function toggleSidebar() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        }
+    </script>
 
 </body>
 </html>
